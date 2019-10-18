@@ -15,7 +15,7 @@ article {
 a:hover{
     text-decoration: underline;
 }
-.a{
+a{
     color: yellow;
     text-decoration: none;
 }
