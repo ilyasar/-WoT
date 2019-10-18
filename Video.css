@@ -1,0 +1,18 @@
+body{
+    background-image: url("img-1.jpg");
+    background-repeat: no-repeat;
+}
+.menu {
+    text-align: top left;
+    margin-top: 0px;
+    font-size: 23px;
+    padding: 50px;
+}
+.title{
+    text-align: center;
+    background-color: yellow;
+}
+video{
+    margin-left: 425px;
+    margin-top: 100px;
+}

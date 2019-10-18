@@ -1,0 +1,29 @@
+body{
+    background-image: url("img-1.jpg");
+    background-repeat: no-repeat;
+}
+article {
+    margin-right: 750px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    background-color: yellow;
+}
+a:hover{
+    text-decoration: underline;
+}
+.a{
+    color: yellow;
+    text-decoration: none;
+}
+.menu {
+    text-align: top left;
+    margin-top: 0px;
+    font-size: 23px;
+    padding: 50px;
+}
+
+
