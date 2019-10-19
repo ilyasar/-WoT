@@ -6,7 +6,7 @@ article {
     margin-right: 750px;
     color: white;
     display: block;
-    text-align: center;
+    text-align: top right;
 }
 .title{
     text-align: center;
@@ -28,8 +28,12 @@ a{
 }
 footer{
     text-align: bottom;
-    margin-top: 700px;
+    padding-bottom: 1cm;
 }
+img{
+    float: right;
+}
+
 
 
 
