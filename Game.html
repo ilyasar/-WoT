@@ -10,6 +10,7 @@
 <body>
     <header>
             <h1 class="title">
+                <a class="menu Comments" href="Comments.html">Комментарии</a>
                 <a class="menu Trailer" href="Trailer.html">Трейлер</a> 
                 <a class="menu" href="index.html">Главная</a>
                 <a class="menu Galery" href="Gallery.html">Галерея</a>
@@ -21,8 +22,8 @@
         Игра "найди клад!"
     </h2>
     <img id="map" width="400" height="400" src="http://nostarch.com/images/treasuremap.png">
-    <p id="distance"></p>
-    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <h2 id="distance"></h2>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
     // Get a random number from 0 to size
     var getRandomNumber = function (size) {
@@ -75,10 +76,10 @@
       // Convert distance to a hint
       var distanceHint = getDistanceHint(distance);
 
-      // Update the #distance element with the new hint
+
       $("#distance").text(distanceHint);
 
-      // If the click was close enough, tell them they won
+
       if (distance < 8) {
         alert("Клад! Чтобы его найти, вы сделали " + clicks + " ям(ы)!");
       }

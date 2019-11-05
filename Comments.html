@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="comments.css">
+    <title>Комментарии</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">
+            <a class="menu Comments" href="Comments.html">Комментарии</a>
+            <a class="menu Trailer" href="Trailer.html">Трейлер</a>
+            <a class="menu" href="index.html">Главная</a>
+            <a class="menu Galery" href="Gallery.html">Галерея</a>
+            <a class="menu Game" href="Game.html">Мини-игра</a>
+        </h1>
+                        
+    </header>
+    <h1 class="head">
+        Место для Ваших комментарий
+    </h1>
+    <input type="text" id="name" value="ваше имя">
+    <input type="text" id="email" value="ваша почта">
+    <br><textarea name="comment" id="comment" rows="10">Введите ваш комментарий</textarea>
+    <br><input type="button" id="button"  value="Отправить">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <h3 class="name-field" id="name-field">
+        Имя
+    </h3>
+    <h3 class="mail-field" id="email-field">
+        Почта
+    </h3>
+    <p class="comment-field" id="comment-field">
+        Текст комментария
+    </p>
+    <script>
+        var name = $("#name-field")
+        button.onclick = function(){
+            console.log("hello");
+            var nameplace = document.querySelector('.name-field');
+            console.log(nameplace);
+            document.querySelector("#name").innerHTML = nameplace;
+            // document.querySelector("#email").text("#email-field");
+            // document.querySelector("#comment").text("#comment-field");
+// Не забудь про return
+        };
+    </script>
+</body>
+</html>
